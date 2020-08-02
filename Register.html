@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="icon" href="sun.jfif"
+</head>
+<body>
+    <style>
+        body{
+            background-image: url(background.jpg);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+    </style>
+
+    <marquee behavior="" direction="left"><h1><strong>Registration form</strong></h1></marquee>
+
+    <center>
+    <form action="">
+
+<table border="2px" cellpadding="2px" cellspacing="2px" width=70%>
+    <tbody>
+        <tr>
+            <td>
+                <label for="Name"><h2>Full Name </h2></label></td>
+            <td><input required id="Name" placeholder="Enter Full Name" type="text" <span>*</span>
+            <input type="button" value="help">
+            <div>This name will be used later to send a certificate</div>
+        </td>
+        </tr>
+
+        <tr>
+            <td>
+                <label for="birthdate"><h2>Birth Date </h2></label>
+            </td>
+            <td>
+                <input required id="birthdate" type="date" <span>*</span>
+                <div>This birth be used later for certificate generation</div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="time"><h2>Birth Time </h2></label>
+            </td>
+            <td><input id="time" type="time"</td>
+        </tr>
+
+        <tr>
+            <td><label for="mail"><h2>E-mail Address </h2></label></td>
+            <td>
+                <input id="mail" type="email" placeholder="Enter E-mail" required
+            </td>
+        </tr>
+        <tr>
+            <td><label for="pw"><h2>Password </h2></label></td>
+            <td>
+                <input id="pw" type="password" placeholder="Enter password"
+            </td>
+        </tr>
+
+        <tr>
+            <td><label for="age"><h2>AGE </h2></label></td>
+            <td><input id="age" type="number" placeholder="Enter Age" </td>
+        </tr>
+        <tr>
+            <td><label for="add"><h2>Address </h2></label></td>
+            <td><select>
+                multiple id="Address"
+                <option selected value="1">Maharashtra</option>
+                <option value="2">Madhya Pradesh</option>
+                <option  value="2">New Delhi</option>
+            </select>
+        
+        <select>
+            multiple id="Address"
+            <option value="1">Ahmednagar</option>
+            <option value="2">New Delhi</option>
+            <option value="">Indore</option>3
+            <option selected value="4">pune</option>
+        </select>
+
+        <select>
+         multiple id="Address"
+         <option value="1">Ahmednagar</option>
+         <option value="2">Satara</option>
+         <option selected value="3">Mumbai</option>
+         <option value="4">Karad</option>
+        </select>
+        <div> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>State</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <strong>District</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>City</strong></div>
+    </td> 
+        </tr>
+        <tr> <td><h3>Gender</h3></td>
+        <td>
+            <label for="radio-male">Male</label>
+            <input checked name="gender" id="radio-male" type="radio"
+            
+            <label for="radio-female">Female</label>
+            <input name="gender" id="radio-female" type="radio"
+            
+            <label for="radio-other">Other</label>
+            <input name="gender" id="radio-other" type="radio"
+        </td></tr>
+
+        <tr>
+            <td>
+                <label<h3><strong>Upload Photo</strong></h3></label>
+            </td>
+            <td>
+                <input accept="image/*" type="file"
+            </td>
+        </tr>
+        <tr>
+            <td><h3><strong>Course</strong></h3></td>
+            <td>
+                <select required id="Course">
+                    <optgroup label="PG- Diploma Course">
+                        <option value="1">DAC</option>
+                       <option value="1">DMC</option>
+                        <option value="1">DBDA</option>
+                    </optgroup>
+
+                    <optgroup label="Modular Course">
+                        <option value="1">c</option>
+                       <option value="1">c++</option>
+                        <option value="1">JAVA</option>
+                    </optgroup>
+
+                </select>
+            </td>
+        </tr>
+        <tr>
+            
+            <td><Center></Center><input type="submit" value="Register"</Center></td>
+            <td><Center></Center><input type="reset" value="Clear"</Center></td>
+    
+        </tr>
+    </tbody>
+</table>
+
+
+
+    </form>
+</center>
+</body>
+</html>
